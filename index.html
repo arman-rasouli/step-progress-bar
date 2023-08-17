@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>step Progress Bar</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="progres-container">
+            <hr class="progres-bar-backEnd">
+            <hr class="progres-bar-frontEnd">
+            <div class="step checked">
+                <i class="fa-solid fa-check"></i>
+                <small>start</small>
+            </div>
+            <div class="step">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="step">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="step">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="step">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+        </div>
+        <button type="button" class="btn buttonDisable" id="prev">
+            <i class="fa-solid fa-arrow-left"></i>
+        </button>
+        <button type="button" class="btn" id="next">
+            <i class="fa-solid fa-arrow-right"></i>
+        </button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
